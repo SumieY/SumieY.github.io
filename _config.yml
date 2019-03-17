@@ -57,6 +57,16 @@ kramdown:
       start_line: 1
 
 
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 361c4f36493da77d09dd                            #生成的clientID
+  clientSecret: 89e9d641aa5d04b1b44d099ef46de08ac30793a1    #生成的clientSecret
+  repo: SumieY.github.io   #仓库名称
+  owner: SumieY    #github用户名
+  admin:  SumieY
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
 
 # Disqus settings
 disqus_username: sumieyu
